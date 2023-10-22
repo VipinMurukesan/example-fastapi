@@ -54,7 +54,7 @@ def get_orm_posts(
         .offset(skip)
         .all()
     )
-
+    
     posts = list(map(lambda x: x._mapping, posts))
 
     return posts
