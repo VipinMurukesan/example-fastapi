@@ -7,6 +7,7 @@ import time
 from .config import settings 
 
 
+
 SQLALCHEMY_DATABASE_URL = f"postgresql://{settings.database_user_name}:{settings.database_password}@{settings.database_host_name}:{settings.database_port}/{settings.database_name}"
 # SQLALCHEMY_DATABASE_URL = "postgresql://user:password@postgresserver/db"
 

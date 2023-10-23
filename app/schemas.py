@@ -12,6 +12,7 @@ class UserCreate(UserBase):
 
 
 class UserReturn(UserBase):
+    id: int
     created_at: datetime
 
 
