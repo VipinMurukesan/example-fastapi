@@ -21,7 +21,7 @@ jobs:
         image: postgres
         env:
           POSTGRES_PASSWORD: mysecretpassword
-          POSTGRES_DB: fastapi_test
+          POSTGRES_DB: fastapi
         ports:
           - 5432:5432
         options: >-
